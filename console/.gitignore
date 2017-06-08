@@ -1,3 +1,4 @@
+config/db.php
 config/main-local.php
 config/params-local.php
 runtime

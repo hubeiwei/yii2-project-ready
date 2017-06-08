@@ -1,4 +1,7 @@
 <?php
-return [
+
+$config = [
     'adminEmail' => 'admin@example.com',
 ];
+
+return $config;
