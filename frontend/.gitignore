@@ -1,0 +1,5 @@
+config/main-local.php
+config/params-local.php
+runtime
+web/index.php
+web/robots.txt
