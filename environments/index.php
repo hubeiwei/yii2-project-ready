@@ -30,26 +30,34 @@
  * ```
  */
 
+$environments = [
+	'dev',
+];
+
 $setWritable = [
 	'backend/runtime',
 	'backend/web/assets',
 	'frontend/runtime',
 	'frontend/web/assets',
 ];
+
 $setExecutable = [
 	'yii',
 ];
+
 $setCookieValidationKey = [
 	'backend/config/main-local.php',
 	'frontend/config/main-local.php',
 ];
-$config = [
-	'Development' => [
-		'path' => 'dev',
+
+$config = [];
+foreach ($environments as $environment) {
+	$config[$environment] = [
+		'path' => $environment,
 		'setWritable' => $setWritable,
 		'setExecutable' => $setExecutable,
 		'setCookieValidationKey' => $setCookieValidationKey,
-	],
-];
+	];
+}
 
 return $config;
