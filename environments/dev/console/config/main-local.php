@@ -1,10 +1,10 @@
 <?php
 
 $config = [
-	'bootstrap' => ['gii'],
-	'modules' => [
-		'gii' => 'yii\gii\Module',
-	],
+    'bootstrap' => ['gii'],
+    'modules' => [
+        'gii' => 'yii\gii\Module',
+    ],
 ];
 
 return $config;
