@@ -16,12 +16,11 @@
         "wiki": "http://www.yiiframework.com/wiki/",
         "forum": "http://www.yiiframework.com/forum/"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.14",
-        "yiisoft/yii2-redis": "~2.0.0",
-        "yiisoft/yii2-bootstrap": "~2.0.0"
+        "yiisoft/yii2-redis": "~2.0.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
