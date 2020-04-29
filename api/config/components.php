@@ -1,5 +1,6 @@
 <?php
 
+use api\models\User;
 use yii\web\JsonParser;
 use yii\web\Response;
 
@@ -14,7 +15,7 @@ $config = [
         'format' => Response::FORMAT_JSON,
     ],
     'user' => [
-        'identityClass' => 'common\models\User',
+        'identityClass' => User::class,
         'enableSession' => false,
         'loginUrl' => null,
     ],
